@@ -1,8 +1,13 @@
 # CleaningDataWeek4
 clean data set
 # List of files
-run_analysis.R
-
+<ol>
+<li>readme.md</li> contains information about the contents of the directory
+<li>run_analysis.R</li> source code to produce the tidy data
+<li>create_codebook.R</li> source code to create the codebook that modifies and updates the available codebooks with the data to indicate all the variables and summaries calculated, along with units, and any other relevant information.
+<li>datacodebook.txt</li> the output codebook created using the create_codebook.R 
+<li>tidy.txt</li> the tidy data set created with write.table() using row.name=FALSE.
+</ol>
 # run_analysis.R 
 ### Download the data of the project from the following location
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
