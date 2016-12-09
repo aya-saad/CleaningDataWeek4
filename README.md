@@ -1,10 +1,13 @@
 # CleaningDataWeek4
 clean data set
+# List of files
+run_analysis.R
 
-# Download the data of the project from the following location
+# run_analysis.R 
+### Download the data of the project from the following location
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 
-# Read the list of features to appropriately label the data set with descriptive variable names.
+### Read the list of features to appropriately label the data set with descriptive variable names.
 Read file in the data zip file given its name, type ("", "test", "train") and column names
 Read the list of activities to appropriately label them in the output
 Get the subject test data
@@ -15,7 +18,7 @@ Reading the test and train data
 <dl><dt>Step 1. Merge the training and the test sets to create one data set.</dt></dl>
 Rows are determined by the subjects along with their activities 
 
-# Run analysis where we calculate the overall mean and std for each variable
+### Run analysis where we calculate the overall mean and std for each variable
 <dl>
 <dt>Step 2. Extract only the measurements on the mean and standard deviation for each measurement.</dt>
 <dt>Step 3. Uses descriptive activity names to name the activities in the data set based on the activity label file</dt>
